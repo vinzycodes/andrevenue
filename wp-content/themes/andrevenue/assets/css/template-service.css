@@ -1,0 +1,319 @@
+/**
+ * Template: Services
+ */
+
+/* Utils */
+
+/**
+ * Variables
+ */
+
+.service {
+  /*=============================
+	=            Intro            =
+	=============================*/
+  /*=====  End of Intro  ======*/
+  /*=======================================
+	=            Job Description            =
+	=======================================*/
+  /*=====  End of Job Description  ======*/
+  /*============================
+	=            Blog            =
+	============================*/
+  /*=====  End of Blog  ======*/
+}
+
+.service .service-intro {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.service .service-intro .service-intro-title {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.98);
+  margin-top: 9px;
+  min-width: 9em;
+  max-width: 9em;
+  position: relative;
+  z-index: 1;
+}
+
+.service .service-intro .service-intro-image {
+  position: relative;
+  display: block;
+  margin-bottom: calc(74px - 11px);
+  min-height: 146px;
+  max-width: 810px;
+}
+
+.service .service-intro .service-intro-image img {
+  max-width: 100%;
+}
+
+.service .service-intro .service-intro-image-small {
+  max-width: 270px;
+  max-height: 270px;
+  overflow: hidden;
+  height: auto;
+  position: absolute;
+  bottom: -74px;
+  right: 0;
+}
+
+.service .service-intro .service-intro-image-small img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service .service-intro .service-intro-content {
+  display: grid;
+  grid-template-columns: 1fr 270px;
+  grid-gap: 61px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 810px;
+}
+
+.service .service-intro .service-intro-text p {
+  line-height: 1.2;
+}
+
+.service .service-intro .service-intro-cases {
+  padding-top: 53px;
+}
+
+.service .service-intro .service-intro-cases-text {
+  margin-bottom: 13px;
+}
+
+.service .service-intro .service-intro-cases-text p {
+  margin-bottom: 0;
+}
+
+.service .service-intro .service-intro-cases-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000;
+  font-family: "Code Pro LC", sans-serif;
+  font-size: 22px;
+  font-weight: 700px;
+  line-height: 1;
+}
+
+.service .service-description {
+  padding: 96px 0 105px;
+}
+
+.service .service-description .service-description-title {
+  margin-top: 5px;
+}
+
+.service .service-description .service-description-content {
+  max-width: 810px;
+  width: 100%;
+}
+
+.service .service-description .service-description-content li a {
+  color: inherit;
+}
+
+.service .service-description .service-description-content li a:hover {
+  color: #b020dc;
+}
+
+.service .service-blog {
+  padding: 0px 0 82px;
+}
+
+.service .service-blog .service-blog-title {
+  min-width: 6em;
+  margin-top: 6px;
+}
+
+.service .service-blog .service-blog-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 49px;
+}
+
+.service .service-blog .service-blog-listItem {
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 27em 1fr;
+  grid-gap: 33px;
+}
+
+.service .service-blog .service-blog-listItem-image {
+  width: 27em;
+  height: 0;
+  padding-bottom: 78.52%;
+  position: relative;
+  overflow: hidden;
+}
+
+.service .service-blog .service-blog-listItem-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.service .service-blog .service-blog-listItem-image:hover img {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.service .service-blog .service-blog-listItem-title {
+  margin-top: 3px;
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+
+.service .service-blog .service-blog-listItem-title a {
+  color: inherit;
+}
+
+.service .service-blog .service-blog-listItem-title a:hover {
+  color: #b020dc;
+}
+
+.service .service-blog .service-blog-listItem-text {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .service .service-intro {
+    padding-top: 35px;
+  }
+
+  .service .service-intro .service-intro-title {
+    margin-top: 0;
+    max-width: unset;
+  }
+
+  .service .service-intro .service-intro-title br {
+    display: none;
+  }
+
+  .service .service-description {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .service .service-intro .service-intro-title {
+    font-size: 30px;
+    line-height: 1.07;
+  }
+
+  .service .service-intro .service-intro-image {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+  .service .service-intro .service-intro-image-small {
+    max-width: 50%;
+    bottom: -88px;
+    height: 0;
+    width: 100%;
+    padding-bottom: 39%;
+  }
+
+  .service .service-intro .service-intro-image-small img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .service .service-intro .service-intro-content {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+       -moz-box-orient: vertical;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    grid-gap: unset;
+  }
+
+  .service .service-intro .service-intro-cases {
+    padding-top: 14px;
+    padding-right: 10px;
+    margin-bottom: 57px;
+    max-width: 50%;
+  }
+
+  .service .service-intro .service-intro-cases-text {
+    margin-bottom: 4px;
+  }
+
+  .service .service-intro .service-intro-cases-title {
+    font-size: 18px;
+  }
+
+  .service .service-description {
+    padding: 47px 0 49px;
+  }
+
+  .service .service-description .service-description-title {
+    max-width: 235px;
+  }
+
+  .service .service-description .service-description-content {
+    padding-top: 10px;
+  }
+
+  .service .service-blog {
+    padding: 0 0 54px;
+  }
+
+  .service .service-blog .service-blog-list {
+    grid-gap: 55px;
+  }
+
+  .service .service-blog .service-blog-listItem {
+    grid-template-columns: 1fr;
+    grid-gap: 28px;
+  }
+
+  .service .service-blog .service-blog-listItem-image {
+    width: 100%;
+    padding-bottom: 65.6%;
+  }
+
+  .service .service-blog .service-blog-listItem-text {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 374px) {
+  .service .service-intro .service-intro-image-small {
+    max-width: 45%;
+  }
+
+  .service .service-intro .service-intro-cases {
+    max-width: 55%;
+    padding-right: 5px;
+  }
+}

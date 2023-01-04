@@ -1,0 +1,233 @@
+/*!
+Theme Name: AndRevenue
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: andrevenue
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+AndRevenue is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+/*--------------------------------------------------------------
+3.0 Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Contact form 7 styles */
+
+div.wpcf7 .ajax-loader {
+	display: none !important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+	display: block;
+  width: 100%;
+  background-color: #99ff00;
+  border: 0;
+  margin: 0;
+  padding: 20px;
+}
+
+.wpcf7 form input[type="text"].wpcf7-not-valid,
+.wpcf7 form input[type="email"].wpcf7-not-valid,
+.wpcf7 form textarea.wpcf7-not-valid,
+.wpcf7 form select.wpcf7-not-valid {
+	border-color: #f50a22;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+	background-color: #ff0303;
+	border: 0;
+	color: #fff;
+}
+
+
+.wpcf7-not-valid-tip {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px 15px;
+
+	font-size: 0.75em;
+	color: #f50a22;
+}
+
+.wpcf7-form-control-wrap {
+	display: block;
+}
+
+.cf7-pageurl {
+	display: none;
+}
+
+/* Admin styles */
+
+body.admin-bar .header {
+	top: 32px;
+}
+
+
+/* Cookies styles */
+
+#cookie-notice {
+	min-width: unset !important;
+	width: 320px;
+	right: 15px;
+	left: unset;
+  bottom: 15px;
+
+	border-radius: 10px;
+	font-family: 'Code Pro LC', sans-serif !important;
+	line-height: 1.3;
+}
+
+#cookie-notice:before {
+	content: '';
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: block;
+	z-index: -1;
+	background-color: rgba(0,0,0,0.3);
+	transition: 0.25s;
+}
+
+#cookie-notice.cookie-notice-hidden:before {
+	content: none;
+}
+
+#cookie-notice .cookie-notice-container {
+	padding: 88px 30px 20px;
+	background-image: url('/wp-content/themes/andrevenue/assets/images/general/cookies-bg.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#cookie-notice .cn-close-icon {
+	right: 15px;
+	top: 12px;
+	margin-top: 0;
+	opacity: 1;
+}
+
+#cookie-notice .cn-text-container {
+	margin-bottom: 18px;
+}
+
+#cookie-notice .cn-text-container a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+#cookie-notice .cn-button.bootstrap {
+	color: #000;
+	background-color: #fff;
+	font-size: 15px;
+	border-radius: 0;
+	margin: 0;
+	padding: 8px 20px;
+}
+
+@media (max-width: 767px) {
+	#cookie-notice {
+		width: 286px;
+		bottom: 0;
+		right: unset;
+		left: 50%;
+		margin-left: -143px;
+	}
+
+	#cookie-notice .cookie-notice-container {
+		padding: 111px 20px 23px;
+		background-image: url('/wp-content/themes/andrevenue/assets/images/general/cookies-bg.png');
+	}
+}
+
+
+
+
+
+
+
+
+

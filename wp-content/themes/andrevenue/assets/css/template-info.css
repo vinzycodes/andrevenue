@@ -1,0 +1,281 @@
+/**
+ * Template: Info
+ */
+
+/* Utils */
+
+/**
+ * Variables
+ */
+
+body {
+  overflow: unset;
+}
+
+.section__row-col {
+  height: 100%;
+}
+
+.info {
+  /*==============================
+	=           Contacts           =
+	==============================*/
+  /*=====  Contacts  ======*/
+  /*============================
+	=            Body            =
+	============================*/
+  /*=====  End of Body  ======*/
+  /*================================
+	=            Glossary            =
+	================================*/
+  /*=====  End of Glossary  ======*/
+}
+
+.info .info-contacts {
+  padding-top: 57px;
+  padding-bottom: 83px;
+}
+
+.info .info-contacts .info-contacts-title {
+  margin-top: 2px;
+}
+
+.info .info-contacts .info-contacts-text {
+  max-width: 540px;
+}
+
+.info .info-contacts .info-contacts-text p {
+  line-height: 1.2;
+  margin-bottom: 1.24em;
+}
+
+.info .info-contacts .info-contacts-text p a {
+  color: inherit;
+}
+
+.info .info-contacts .info-contacts-text p a:hover {
+  color: #b020dc;
+}
+
+.info .info-body {
+  padding-top: 4px;
+  padding-bottom: 31px;
+}
+
+.info .info-body .info-body-text {
+  max-width: 100%;
+}
+
+.info .info-body .info-body-text p {
+  line-height: 1.25;
+}
+
+.info .info-body .info-body-text p:not(:last-child) {
+  margin-bottom: 1.16em;
+}
+
+.info .info-body .info-body-text h3,
+.info .info-body .info-body-text h4 {
+  margin-bottom: 0;
+}
+
+.info .info-body .info-body-text h4 {
+  margin-top: 1.16em;
+}
+
+.info .glossary-intro {
+  padding-top: 57px;
+  padding-bottom: 83px;
+}
+
+.info .glossary-intro .glossary-intro-title {
+  margin-top: 2px;
+}
+
+.info .glossary-intro .glossary-intro-text {
+  max-width: 540px;
+}
+
+.info .glossary-intro .glossary-intro-text p {
+  line-height: 1.2;
+  margin-bottom: 1.24em;
+}
+
+.info .glossary-intro .glossary-intro-text p a {
+  color: inherit;
+}
+
+.info .glossary-intro .glossary-intro-text p a:hover {
+  color: #b020dc;
+}
+
+.info .glossary-body .glossary-body-block:not(:last-child) {
+  margin-bottom: 140px;
+}
+
+.info .glossary-body .glossary-body-block .info-body-title {
+  margin-bottom: 30px;
+}
+
+.info .glossary-body .glossary-body-block .info-body-title a {
+  color: inherit;
+}
+
+.info .glossary-body .glossary-body-block .info-body-title a:hover {
+  color: #b020dc;
+}
+
+.info .glossary-body .glossary-body-alphabet {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 140px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.info .glossary-body .glossary-body-alphabet ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  gap: 10px;
+  text-align: left;
+  max-width: 55px;
+}
+
+.info .glossary-body .glossary-body-alphabet li {
+  font-family: "Code Pro LC", sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.info .glossary-body .glossary-body-alphabet li[disabled="disabled"] {
+  color: #b7b7b7;
+}
+
+.info .glossary-body .glossary-body-alphabet li[disabled="disabled"] a {
+  cursor: default;
+  pointer-events: none;
+}
+
+.info .glossary-body .glossary-body-alphabet li[disabled="disabled"] a:hover {
+  color: #b7b7b7;
+}
+
+.info .glossary-body .glossary-body-alphabet li a {
+  color: inherit;
+}
+
+.info .glossary-body .glossary-body-alphabet li a:hover {
+  color: #b020dc;
+}
+
+@media (max-width: 1199px) {
+  .info .glossary-body .section__row {
+    grid-template-columns: 100px 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  .info .info-contacts {
+    padding-top: 35px;
+    padding-bottom: 57px;
+  }
+
+  .info .glossary-intro {
+    padding-top: 35px;
+    padding-bottom: 57px;
+  }
+
+  .info .glossary-body .section__row {
+    grid-template-columns: 70px 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .info .info-contacts {
+    padding-bottom: 41px;
+  }
+
+  .info .info-contacts .info-contacts-title {
+    margin-top: 0;
+    line-height: 1.07;
+    font-size: 30px;
+  }
+
+  .info .info-contacts .info-contacts-text {
+    padding-top: 7px;
+  }
+
+  .info .info-contacts .info-contacts-text p {
+    margin-bottom: 1.29em;
+  }
+
+  .info .info-body .info-body-text {
+    padding-top: 10px;
+  }
+
+  .info .glossary-intro {
+    padding-bottom: 41px;
+  }
+
+  .info .glossary-intro .glossary-intro-title {
+    margin-top: 0;
+    line-height: 1.07;
+    font-size: 30px;
+  }
+
+  .info .glossary-intro .glossary-intro-text {
+    padding-top: 7px;
+  }
+
+  .info .glossary-intro .glossary-intro-text p {
+    margin-bottom: 1.29em;
+  }
+
+  .info .glossary-body .section__row {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+
+  .info .glossary-body .glossary-body-block:not(:last-child) {
+    margin-bottom: 90px;
+  }
+
+  .info .glossary-body .glossary-body-block .info-body-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .info .glossary-body .glossary-body-alphabet ul {
+    gap: unset;
+    max-width: unset;
+    -webkit-column-count: unset;
+       -moz-column-count: unset;
+            column-count: unset;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-gap: 10px 24px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .info .glossary-body .glossary-body-alphabet li {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .info .glossary-body .glossary-body-alphabet ul {
+    grid-template-columns: repeat(8, auto);
+  }
+}
