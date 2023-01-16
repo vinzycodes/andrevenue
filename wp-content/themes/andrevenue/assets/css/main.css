@@ -613,40 +613,40 @@ p a {
 
 @font-face {
   font-family: 'Code Pro';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.eot");
-  src: local("Code Pro Bold"), local("Code-Pro-Bold"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.svg#Code-Pro-Bold") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.eot");
+  src: local("Code Pro Bold"), local("Code-Pro-Bold"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold.svg#Code-Pro-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.eot");
-  src: local("Code Pro Black"), local("Code-Pro-Black"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.svg#Code-Pro-Black") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.eot");
+  src: local("Code Pro Black"), local("Code-Pro-Black"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black.svg#Code-Pro-Black") format("svg");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.eot");
-  src: local("Code Pro Light"), local("Code-Pro-Light"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.svg#Code-Pro-Light") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.eot");
+  src: local("Code Pro Light"), local("Code-Pro-Light"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light.svg#Code-Pro-Light") format("svg");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.eot");
-  src: local("Code Pro"), local("Code-Pro"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.svg#Code-Pro") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.eot");
+  src: local("Code Pro"), local("Code-Pro"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro.svg#Code-Pro") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro LC';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.eot");
-  src: local("Code Pro Bold LC"), local("Code-Pro-Bold-LC"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.svg#Code-Pro-Bold-LC") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.eot");
+  src: local("Code Pro Bold LC"), local("Code-Pro-Bold-LC"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Bold-LC.svg#Code-Pro-Bold-LC") format("svg");
   font-weight: 700;
   font-style: normal;
   font-display: block;
@@ -654,8 +654,8 @@ p a {
 
 @font-face {
   font-family: 'Code Pro LC';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.eot");
-  src: local("Code Pro Light LC"), local("Code-Pro-Light-LC"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.svg#Code-Pro-Light-LC") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.eot");
+  src: local("Code Pro Light LC"), local("Code-Pro-Light-LC"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Light-LC.svg#Code-Pro-Light-LC") format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: block;
@@ -663,8 +663,8 @@ p a {
 
 @font-face {
   font-family: 'Code Pro LC';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.eot");
-  src: local("Code Pro LC"), local("Code-Pro-LC"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.svg#Code-Pro-LC") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.eot");
+  src: local("Code Pro LC"), local("Code-Pro-LC"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-LC.svg#Code-Pro-LC") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -672,8 +672,8 @@ p a {
 
 @font-face {
   font-family: 'Code Pro LC';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.eot");
-  src: local("Code Pro Black LC"), local("Code-Pro-Black-LC"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.svg#Code-Pro-Black-LC") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.eot");
+  src: local("Code Pro Black LC"), local("Code-Pro-Black-LC"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/Code-Pro-Black-LC.svg#Code-Pro-Black-LC") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: block;
@@ -684,14 +684,14 @@ p a {
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.eot);
-  src: url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.eot#iefix) format("embedded-opentype"), url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg");
+  src: url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.eot);
+  src: url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.eot#iefix) format("embedded-opentype"), url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(/andrevenue/wp-content/themes/andrevenue/assets/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg");
 }
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.eot");
-  src: local("Segoe UI"), local("SegoeUI"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.eot#iefix") format("embedded-opentype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.woff2") format("woff2"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.woff") format("woff"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.ttf") format("truetype"), url("andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.svg#SegoeUI") format("svg");
+  src: url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.eot");
+  src: local("Segoe UI"), local("SegoeUI"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.eot#iefix") format("embedded-opentype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.woff2") format("woff2"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.woff") format("woff"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.ttf") format("truetype"), url("/andrevenue/wp-content/themes/andrevenue/assets/fonts/segoe-ui/SegoeUI.svg#SegoeUI") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1296,7 +1296,7 @@ p a {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-check.svg");
+  background-image: url("/andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-check.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1340,7 +1340,7 @@ p a {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-check.svg");
+  background-image: url("/andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-check.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1557,9 +1557,9 @@ p a {
 
 .header-nav li a {
   font-family: "Code Pro LC", sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   color:#fff;
-  margin:10px inherit;
+  margin:10px auto;
   display: block;
 }
 
@@ -1627,7 +1627,7 @@ p a {
   list-style: none;
   opacity: 0;
   pointer-events: none;
-  transform: translateX(50px);
+  transform: translateY(50px);
   transition: 0.2s;
   background-color: rgb(247 247 247 / 90%);
 }
@@ -1721,8 +1721,8 @@ p a {
 }
 .header.header-white li a{
   color: #000;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 /* .header.header-white path.logoPath {
   fill: #fff;
@@ -2233,8 +2233,8 @@ p a {
   .container {
     max-width: 500px;
     width: 100%;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -2576,7 +2576,7 @@ p a {
     left: 100%;
     padding-left: 20px;
     top: 5px;
-    background-image: url("andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-filter-chevron.svg");
+    background-image: url("/andrevenue/wp-content/themes/andrevenue/assets/images/templates/cases/icon-filter-chevron.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2783,6 +2783,12 @@ p a {
 @media (max-width: 450px) {
   .header-nav li a {
     font-size: 22px;
+  }
+  .header-bar__inner {
+    justify-content: space-around;
+  }
+  .header_logo, .header_logo svg{
+    max-width: 3em;
   }
 }
 
