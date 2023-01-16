@@ -9,9 +9,12 @@
     margin-bottom:1em;
 }
 
+.news-list-wrapper{
+    margin-bottom:4em;
+}
+
 .news-wrapper {
     background-color: rgb(246, 246, 246);
-    margin-bottom: 4em;
     padding: 1.5em .5em;
 }
 
