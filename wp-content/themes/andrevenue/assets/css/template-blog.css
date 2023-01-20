@@ -213,6 +213,11 @@
   line-height: 1.05;
 }
 
+.newsletter-wrapper{
+  max-width:100%;
+  height:auto;
+}
+
 @media (max-width: 991px) {
   .blog .blog-body {
     padding-top: 35px;
@@ -326,6 +331,7 @@
     padding: 8px 13px 5px;
   }
 }
+
 
 @media (max-width: 420px) {
   .blog .blog-body .blog-body-article{
